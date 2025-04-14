@@ -1,0 +1,449 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.logo{
+    height: 40px;
+    width: 200px;
+    margin-left: 250px;
+    cursor: pointer;
+    
+}
+.icon1{
+    display: flex;
+}
+.button1{
+    width: 40px;
+    height: 40px;
+    border: 0px ;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    
+}
+ul{
+    display: flex;
+    list-style-type: none !important;
+    justify-content: space-between;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.sanpham{
+    display: flex;
+    justify-content: space-between;
+    right: 100px;
+
+}
+.tensp{
+    padding: 20px;
+    font-size: 1.1rem;
+    color: gray;
+
+    
+    
+}
+.tensp:hover{
+    color: black;
+    margin-top: 2px;
+}
+
+.Hinhsp{
+    cursor: pointer;
+}
+    
+    
+
+
+.color{
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    bottom: 50px;
+    
+    position: relative;
+    
+
+    
+}
+.colorgreen{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.cl{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.color77512{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.colorblack{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.colorwhite{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.coloryellow{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.editbutton2{
+    text-align: center;
+    
+}
+.button2{
+    
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #d9d9d9; 
+    
+position: relative;
+}
+.button2:hover{
+    background-color: rgb(59, 55, 55);
+    color: white;
+    
+    transition: 0.3s linear;
+    position: relative;
+}
+
+
+
+.title1{
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hinh1{
+    height: 650px;
+    width: 100%
+}
+.SPNB{
+    background-color: rgb(133, 208, 237);
+}
+
+
+.SPNB1{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+   
+}
+.bottom{
+    display:flex;
+    margin-left: 10px;
+}
+ 
+.information{
+    margin-left: 200px;
+    display: flex;
+    
+
+}
+.title{
+    font-size: 1.3rem;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.in1{
+    font-size: 1.3rem;
+    margin-top: 80px;
+    cursor: text;
+}
+.in2{
+   
+    font-size: 1.3rem;
+    margin-top: 80px;
+     margin-left: 50px;
+}
+
+.ul1{
+    display: block;
+    margin-top: 20px;
+    cursor: text;
+}
+li{
+    margin-top: 20px;
+}
+.ul2{
+    margin-left: 50px;
+    display: block;
+    cursor: text;
+}
+
+.in3{
+   
+    font-size: 1.3rem;
+    margin-top: 80px;
+     margin-left: 50px;
+     
+}
+.ul3{
+    display: block;
+    margin-left: 50px;
+
+}
+.li3:hover{
+    color: aqua;
+    
+}
+.li4:hover{
+    color: aqua;
+}
+.li3 {
+    margin-top: 40px;
+}
+
+.icontong{
+    margin-top: 110px;
+    margin-left: 80px;
+}
+.ul4{
+    display: block;
+    
+}
+.p1{
+    margin-top: 20px;
+    display: block;
+}
+.li5:hover{
+   
+    color: aqua;
+}
+.li5{
+    margin-left: 700px;
+}
+.li6:hover{
+    color: aqua;
+}
+.li7{
+    cursor: text;
+}
+
+.bottom1{
+    
+    background-color: black;
+  padding-bottom: 1px;
+    
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    
+    
+}
+.bottom2{
+    cursor: auto;
+}
+
+.spnbedit{
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+.spnbedit0{
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+button {
+    background-color: white;
+    
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+    
+}
+.sign-up:hover{
+    background-color: rgb(59, 55, 55);
+    color: white;
+    
+    transition: 0.3s linear;
+    
+  }
+
+.container{
+    
+    text-align: center;
+    padding: 50px;
+}
+  .lb2{
+    margin-top: 25px;
+}
+  .clearfix{
+    margin-top: 25px;
+}
+  .nhap{
+    width: 500px;
+    height: 30px;
+}
+
+
+
+
+
+.i1{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(158, 154, 154);
+    color: aliceblue;
+}
+.lihead{
+    color: rgb(106, 105, 105);
+}
+.lihead:hover{
+    color: black;
+}
+
+.dropbtn {
+    color: rgb(106, 105, 105);
+    font-size: 16px;
+    border: none;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(106, 105, 105);
+    padding: 12px 16px;
+    text-decoration: none;
+    
+    display: block;
+  
+  }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {}
+
+@keyframes diichuyen{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+.dichuyen{
+    padding: 1px;
+    background-color: black;
+    display: none;
+  
+}
+
+.dropdown a:hover .dichuyen{
+    display: block;
+    animation: diichuyen ease-out 1s;
+
+}
+/* Phần search   */
+
+.search-box{
+    display: flex;
+    align-self: center;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #f8fafc  ;
+    justify-content: space-between;
+}
+.search-box:hover>.search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-text{
+    border: none;
+    background: none;
+    float: left;
+    line-height: 20px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 0;
+    transition: 0.4s;
+}
+.search-btn{
+    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 20px;
+}
+.search-box:hover>.search-btn{
+    background: white;
+    color: rgb(203, 120, 120);
+}
+
+
+
+
+
+
+
